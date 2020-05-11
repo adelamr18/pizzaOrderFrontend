@@ -11,6 +11,12 @@
 }
 @media (max-width: 43.75rem) {
   .shopping-cart-main-container {
-    display: none;
+    padding: 1.25 !important;
+    width: 100% !important;
+    margin-top: 1rem;
+  }
+  .main-content {
+    display: flex;
+    flex-direction: column;
   }
 }
